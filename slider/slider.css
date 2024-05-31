@@ -39,6 +39,7 @@ a{
     font-size: 3em;
     color: white;
     text-shadow: 0px 5px 10px black;
+    font-family: "Jaro", 'Courier New', Courier, monospace;
 }
 a:hover{
     color: #0c8b46;
