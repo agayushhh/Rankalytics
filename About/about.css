@@ -93,12 +93,14 @@ body{
 
 
 }
-#strip1{
+.strip1{
     height:7vw;
     width:17vw;
     background-color: #0c8b46;
     position:relative;
     bottom:1.25vw;
+    justify-content: center;
+    align-items: center;
 }
 #m{
     height:20vw;
@@ -110,22 +112,23 @@ body{
 #mp1{
     font-family: "Advent Pro", sans-serif;
     position:relative;
-    left:5vw;
+    
     font-weight: 700;
-    font-size: 2em;
-    bottom:1.5vw;
-    color: #000000;
+    font-size: 1.5em;
+    
+    color: white;
+    text-align: center;
     
 }
 #mp2{
     font-family: "Advent Pro", sans-serif;
-    font-size: 2em;
-    color: #000000;
+    font-size: 1.5em;
+    color: white;
     position: relative;
     font-weight: 700;
-    bottom:3.5vw;
-    left:3.3vw;
-
+    bottom:2vw;
+    
+    text-align: center;
 
 }
 #glass2{
