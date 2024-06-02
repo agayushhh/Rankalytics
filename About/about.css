@@ -1,13 +1,5 @@
 body{
     background-color: black;
-    height:100%;
-    width:100%;
-    
-}
-#bg{
-    height:100%;
-    width:100%;
-
 }
 #video{
     position: fixed;
@@ -46,339 +38,93 @@ body{
 }
 .tabs ul li a:hover{
     color: #0c8b46;
+    font-size: larger;
 }
 .tabs ul li a:active{
     color: #0c8b46;
     text-decoration: underline;
 }
-#glass1 {
-    position: relative;
-    height: 23vw;
-    width: 17vw;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-    backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 4vh;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-    top: 6vw;
-    left: 5%;
-    z-index: 3;
+
+main {
     display: flex;
-    flex-direction: column;
-    overflow: visible;
-}
-#m1{ 
-    height: 15vw;
-    width: 17vw;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-    backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 4vh;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-    
-    
-
-}
-#m2{
-    height:8vw;
-    width:17vw;
-    background-color: #0c8b46;
-    border-radius: 4vh;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    
-    display:flex;
-    overflow: visible;
-
-
-}
-.strip1{
-    height:7vw;
-    width:17vw;
-    background-color: #0c8b46;
-    position:relative;
-    bottom:1.25vw;
+    flex-wrap: wrap;
     justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.glass {
+    position: relative;
+    height: 300px;
+    width: 230px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: flex-end;
+    overflow: visible;
+    top: 24vh;
 }
-#m{
-    height:20vw;
-    z-index: 20;
+.glass img {
+    width: 100%;
+    height: auto;
+    margin-top: -50px;
+    margin-bottom: -4px;
+    z-index: 1;
     position: relative;
-    bottom:23.25vw;
-    right:9vw;
 }
-#mp1{
-    font-family: "Advent Pro", sans-serif;
-    position:relative;
-    
-    font-weight: 700;
-    font-size: 1.5em;
-    
-    color: white;
+
+.strip {
+    background-color: #0c8b46;
+    width: 100%;
     text-align: center;
-    
+    padding: 10px 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: 2;
+    position: relative;
+    margin-top: -4px;
 }
-#mp2{
-    font-family: "Advent Pro", sans-serif;
-    font-size: 1.5em;
+
+.mp1, .mp2 {
+    font-size: 1.2em;
+    font-weight: 700;
     color: white;
-    position: relative;
-    font-weight: 700;
-    bottom:2vw;
-    
-    text-align: center;
-
-}
-#glass2{
-    position: relative;
-    height: 23vw;
-    width: 17vw;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-    backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 4vh;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-    z-index: 3;
-    display: flex;
-    flex-direction: column;
-    overflow: visible;
-    bottom:37.5vw;
-    left:30vw;
-}
-#a1{ 
-    height: 15vw;
-    width: 17vw;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-    backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 4vh;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-    
-    
-
-}
-#a2{
-    height:8vw;
-    width:17vw;
-    background-color: #0c8b46;
-    border-radius: 4vh;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    
-    display:flex;
-    overflow: visible;
-
-
-}
-#strip2{
-    height:7vw;
-    width:17vw;
-    background-color: #0c8b46;
-    position:relative;
-    bottom:1.25vw;
-    
-}
-#ap1{
-    font-family: "Advent Pro", sans-serif;
-    position:relative;
-    left:2vw;
-    font-weight: 700;
-    font-size: 2em;
-    bottom:1.5vw;
-    color: #000000;
-    
-}
-#ap2{
-    font-family: "Advent Pro", sans-serif;
-    font-size: 2em;
-    color: #000000;
-    position: relative;
-    font-weight: 700;
-    bottom:3.5vw;
-    left:3vw;
-
-
-}
-#a{
-  z-index: 20;
-  height: 23vw;
-  width:29vw;
- 
-  position: relative;
-  bottom:69.75vw;
-  left:24vw;
-}
-#glass3{
-    position: relative;
-    height: 23vw;
-    width: 17vw;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-    backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 4vh;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-    z-index: 3;
-    display: flex;
-    flex-direction: column;
-    overflow: visible;
-    bottom:84vw;
-    left:53vw;
-}
-#s1{ 
-    height: 15vw;
-    width: 17vw;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-    backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 4vh;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-    
-    
-
-}
-#s2{
-    height:8vw;
-    width:17vw;
-    background-color: #0c8b46;
-    border-radius: 4vh;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    
-    display:flex;
-    overflow: visible;
-
-
-}
-#strip3{
-    height:7vw;
-    width:17vw;
-    background-color: #0c8b46;
-    position:relative;
-    bottom:1.25vw;
-    
-}
-#sp1{
-    font-family: "Advent Pro", sans-serif;
-    position:relative;
-    left:0.5vw;
-    font-weight: 700;
-    font-size: 2em;
-    bottom:1.5vw;
-    color: #000000;
-    
-}
-#sp2{
-    font-family: "Advent Pro", sans-serif;
-    font-size: 2em;
-    color: #000000;
-    position: relative;
-    font-weight: 700;
-    bottom:3.5vw;
-    left:3vw;
-
-
-}
-#s{
-  z-index: 20;
-  height: 25vw;
-  width:19vw;
- 
-  position: relative;
-  bottom:118.25vw;
-  left:51vw;
-}
-#glass4{
-    position: relative;
-    height: 23vw;
-    width: 17vw;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-    backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 4vh;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-    z-index: 3;
-    display: flex;
-    flex-direction: column;
-    overflow: visible;
-    bottom:132.5vw;
-    left:78vw;
-}
-#ag1{ 
-    height: 15vw;
-    width: 17vw;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-    backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 4vh;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-    
-    
-
-}
-#ag2{
-    height:8vw;
-    width:17vw;
-    background-color: #0c8b46;
-    border-radius: 4vh;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    
-    display:flex;
-    overflow: visible;
-
-
-}
-#strip4{
-    height:7vw;
-    width:17vw;
-    background-color: #0c8b46;
-    position:relative;
-    bottom:1.25vw;
-    
-}
-#agp1{
-    font-family: "Advent Pro", sans-serif;
-    position:relative;
-    left:3.5vw;
-    font-weight: 700;
-    font-size: 2em;
-    bottom:1.5vw;
-    color: #000000;
-    
-}
-#agp2{
-    font-family: "Advent Pro", sans-serif;
-    font-size: 2em;
-    color: #000000;
-    position: relative;
-    font-weight: 700;
-    bottom:3.5vw;
-    left:3.5vw;
-
-
-}
-#ag{
-  z-index: 20;
-  height: 30vw;
-  width:25vw;
- 
-  position: relative;
-  bottom:171.75vw;
-  left:77vw;
-}
-a:hover{
-    color: #0c8b46;
-    font-size: larger;
+    font-family: "Advent Pro", 'Courier New', Courier, monospace;
 }
 
+@media (max-width: 1230px) {
+    main {
+        justify-content: space-evenly;
+        padding: 50px;
+    }
+    .glass {
+        width: 35%;
+        padding-top: 15%;
+        margin-bottom: 10%;
+    }
+}
 
-
-
-
-
-
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .tabs ul {
+        justify-content: center;
+        width: 100%;
+    }
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+    .glass {
+        width: 100%;
+        margin-top: 10%;
+        margin-bottom: 60%;
+    }
+}
