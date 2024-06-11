@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Ranklytics</title>
+        <link rel="icon" href="../static/icon1.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="../static/slider.css">
+    </head>
+    <body>
+        <div class="slider">
+            <div class="list">
+                <div class="item">
+                    <video id="video" autoplay muted loop >
+                        <source src="../slider/greeny.mp4" type="video/mp4">
+                    </video>
+                    <div class="content">
+                        <div class="des">
+                            <a href="{%url 'display_choices'%}" target="_blank"><p class="ques">Potential choices</p></a>
+                            <a href="{% url 'popular_branches'%}" target="_blank"><p class="ques">Popular Branches Trend</p></a>
+                            <a href="{% url 'college_branch_popularity'%}"target="_blank"><p class="ques">College-wise popular branch trend</p></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <video id="video" autoplay loop reverse>
+                        <source src="../static/greeny.mp4" type="video/mp4">
+                    </video>
+                    <div class="content">
+                        <div class="des">
+                            <a href="{% url 'branch_college_popularity'%}"target="_blank"><p class="ques">Branchwise College popularity</p></a>
+                            <a href="{% url 'branch_college_trend'%}"target="_blank"><p class="ques">Branch and college trend over years</p></a>
+                            <a href="{% url 'new_branches_popularity'%} "target="_blank"><p class="ques">Demand of new branches</p></a>
+                            <a href="{% url 'preference_view'%}"target="_blank"><p class="ques">Preference list generator</p></a>
+                        </div>
+                    </div>
+                </div>
+               
+               
+            </div>
+            <div class="thumbnail">
+                
+                <div class="item">
+                    <video class="vdo" autoplay loop reverse>
+                        <source src="../static/greeny.mp4" type="video/mp4">
+                    </video>
+                    <div class="content">
+                        <p>1</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <video class="vdo" autoplay loop reverse>
+                        <source src="../static/greeny.mp4" type="video/mp4">
+                    </video>
+                    <div class="content">
+                        <p>2</p>
+                    </div>
+                </div>
+                
+                </div>
+                
+            </div>
+            <div class="arrows">
+                <button id="prev"><</button>
+                <button id="next">></button>
+            </div>
+            <div class="time"></div>
+        </div>
+        
+        <script src="../static/slider.js" async defer></script>
+    </body>
+</html>
