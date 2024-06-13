@@ -27,4 +27,17 @@ In addition to analyzing rank versus college data, Ranklytics_JAP includes other
    python manage.py runserver
 
 4. Access the Site:
-   Follow the server link to see the website working
+Follow the server link to see the website working
+
+## Screenshots
+![image](https://github.com/musk1n/Ranklytics_JAP/assets/151397097/7457bc25-895e-4d45-a637-84b2f4984bd1)
+![image](https://github.com/musk1n/Ranklytics_JAP/assets/151397097/9599dc81-b126-4fac-bdd8-f17c81a33cdf)
+![image](https://github.com/musk1n/Ranklytics_JAP/assets/151397097/6827b3ab-7252-45f3-bd22-dfbaee6e61a5)
+![image](https://github.com/musk1n/Ranklytics_JAP/assets/151397097/71488212-480f-4888-ab20-7415b766cbb3)
+![image](https://github.com/musk1n/Ranklytics_JAP/assets/151397097/f36013e5-4ada-4411-8b35-19bb0b2b349c)
+![image](https://github.com/musk1n/Ranklytics_JAP/assets/151397097/8c8d9f76-c4c3-4f6e-b7bb-070a91ca2ce7)
+![image](https://github.com/musk1n/Ranklytics_JAP/assets/151397097/1f9a9d4b-ed64-46ab-972e-c05fcf472557)
+![image](https://github.com/musk1n/Ranklytics_JAP/assets/151397097/80dcf812-4cf7-40db-a42d-77bb62be0908)
+![image](https://github.com/musk1n/Ranklytics_JAP/assets/151397097/05ee6ee2-69f1-431f-a68e-5fd16ce3cf3e)
+
+
