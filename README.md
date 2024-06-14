@@ -11,6 +11,7 @@ In addition to analyzing rank versus college data, Ranklytics_JAP includes other
 - **Branch-wise College Popularity**: Analyzes how popular specific branches are across various colleges.
 - **Demand of New Branches**: Predicts the demand for new branches based on historical data.
 - **Preference List Generator**: Generates a preference list for candidates based on their rank and preferences.
+                                 CAUTION: This is involves prediction using linear regression and may result in some disparity.
 
 Certainly! Here's a more polished and structured version for your README file:
 
