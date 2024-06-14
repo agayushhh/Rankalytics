@@ -12,6 +12,43 @@ In addition to analyzing rank versus college data, Ranklytics_JAP includes other
 - **Demand of New Branches**: Predicts the demand for new branches based on historical data.
 - **Preference List Generator**: Generates a preference list for candidates based on their rank and preferences.
 
+Certainly! Here's a more polished and structured version for your README file:
+
+---
+
+## Environment Setup
+
+### Installations
+
+1. **Visual Studio Code (VS Code)**
+   - Download and install [VS Code](https://code.visualstudio.com/).
+
+2. **Python**
+   - Download and install Python from [python.org](https://www.python.org/).
+   - Note: `pip` is included by default with Python installations.
+
+3. **Git**
+   - Download and install Git from [git-scm.com/downloads](https://git-scm.com/downloads).
+   - Ensure Git is added to the system PATH during installation.
+
+### VS Code Extensions
+
+To enhance your development experience in VS Code, install the following extensions:
+
+1. **Python**: Provides rich support for Python.
+2. **Pylance**: Fast, feature-rich language support for Python.
+3. **Code Runner**: Run code snippets or files for multiple languages.
+
+### Install Python Packages
+
+Use Windows PowerShell to install the required Python packages:
+
+```sh
+pip install gitpython pandas numpy plotly django
+```
+
+---
+
 ## Installation
 1. Clone the repository:
    ```bash
