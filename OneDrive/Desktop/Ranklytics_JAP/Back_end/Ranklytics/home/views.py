@@ -125,7 +125,7 @@ def plot_graph(request):
         paper_bgcolor='rgba(0,0,0,0)',
         plot_bgcolor='rgba(0,0,0,0)', 
         font=dict(family="Courier New, monospace", size=14, color="#FFFFFF"),  # Change the font
-        title=dict(text='Average Rank of Top 10 Different Branches', font=dict(size=30, color='#FFFFFF', family='Courier New, monospace', weight='bold')),  # Bold and larger title
+        title=dict(text='Average Rank of Top 10 Different Branches', font=dict(size=30, color='#FFFFFF', family='Courier New, monospace')),  # Bold and larger title
           # Smaller legend font
         legend=dict(font=dict(size=10, color='#FFFFFF')),  # Smaller legend font with white color
         margin=dict(l=20, r=50, t=100, b=50),  # Adjust margins to allow more space for the plot
@@ -192,7 +192,7 @@ def plot_graph(request):
             }],
             paper_bgcolor='rgba(0,0,0,0)',  
         font=dict(family="Courier New, monospace", size=14, color="#FFFFFF"),  # Change the font
-        title=dict(text='Average Rank of Top 10 Different Branches', font=dict(size=30, color='#FFFFFF', family='Courier New, monospace', weight='bold')),  # Bold and larger title
+        title=dict(text='Average Rank of Top 10 Different Branches', font=dict(size=30, color='#FFFFFF', family='Courier New, monospace')),  # Bold and larger title
           # Smaller legend font
         legend=dict(font=dict(size=10, color='#FFFFFF')),  # Smaller legend font with white color
         margin=dict(l=20, r=50, t=100, b=50),  # Adjust margins to allow more space for the plot
@@ -276,7 +276,7 @@ def college_branch_popularity(request):
     plot_bgcolor='rgba(0, 0, 0, 0)',  # Set plot background color to transparent
     paper_bgcolor='rgba(0, 0, 0, 0)',  # Set paper background color to transparent
     font=dict(family="Courier New, monospace", size=14, color="#FFFFFF"),  # Change the font
-    title=dict(text=f'Average Rank of Top 10 Different Branches in {college_name}', font=dict(size=25, color='#FFFFFF', family='Courier New, monospace', weight='bold')),  # Bold and larger title
+    title=dict(text=f'Average Rank of Top 10 Different Branches in {college_name}', font=dict(size=25, color='#FFFFFF', family='Courier New, monospace')),  # Bold and larger title
     legend=dict(font=dict(size=10, color='#FFFFFF')),  # Smaller legend font with white color
     margin=dict(l=20, r=50, t=100, b=50),  # Adjust margins to allow more space for the plot
     width=1400,  # Increase figure width
@@ -384,7 +384,7 @@ def branch_college_popularity(request):
             plot_bgcolor='rgba(0, 0, 0, 0)',
             paper_bgcolor='rgba(0, 0, 0, 0)',
             font=dict(family="Courier New, monospace", size=14, color="#FFFFFF"),
-            title=dict(text=f'Average Rank of Top 10 Different Colleges offering {branch}', font=dict(size=25, color='#FFFFFF', family='Courier New, monospace', weight='bold')),
+            title=dict(text=f'Average Rank of Top 10 Different Colleges offering {branch}', font=dict(size=25, color='#FFFFFF', family='Courier New, monospace')),
             legend=dict(font=dict(size=10, color='#FFFFFF')),
             margin=dict(l=20, r=50, t=100, b=50),
             width=1400,
@@ -606,7 +606,7 @@ def new_branches_popularity(request):
             plot_bgcolor='rgba(0,0,0,0)',
             paper_bgcolor='rgba(0,0,0,0)',
             font=dict(family="Courier New, monospace",size=14 ,color='white'),
-            title=dict(text='Average Rank of Top 10 Different Branches', font=dict(size=25, color='#FFFFFF', family='Courier New, monospace', weight='bold')),
+            title=dict(text='Average Rank of Top 10 Different Branches', font=dict(size=25, color='#FFFFFF', family='Courier New, monospace')),
                        
             legend=dict(
                 font=dict(size=8,color='white'),
@@ -637,7 +637,7 @@ def new_branches_popularity(request):
                 ))
 
             fig2.update_layout(
-                title=dict(text='Trend of Average Ranks Over Years for Top New Branches', font=dict(size=25, color='#FFFFFF', family='Courier New, monospace', weight='bold')),
+                title=dict(text='Trend of Average Ranks Over Years for Top New Branches', font=dict(size=25, color='#FFFFFF', family='Courier New, monospace')),
                 xaxis_title='Year',
                 yaxis_title='Average Rank',
                 legend_title='Branches',
