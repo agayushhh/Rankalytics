@@ -20,7 +20,7 @@ In addition to analyzing rank versus college data, Ranklytics_JAP includes other
 
 2. Navigating to directory:
    ```bash
-   cd .\Back_end\Ranklytics
+   cd .\OneDrive\Desktop\Ranklytics_JAP\Back_end\Ranklytics
 
 3. Runserver:
    ```bash
